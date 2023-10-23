@@ -90,7 +90,7 @@ st.set_page_config(layout="centered")
 st.header("Personalized Movie Recommendation Engine",divider="rainbow")
 
 # User input: userId and movie title
-user_id = st.number_input("Enter your userId", min_value=1, max_value=670, value=2)
+user_id = st.number_input("Enter your userId", min_value=1, max_value=670, value=1)
 # User input for movie title with autocomplete options
 movie_title = st.selectbox("Select a movie title", movies['title'].tolist())
 
